@@ -1,0 +1,38 @@
+// operateruse05.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	//This code is written by ALI
+	int a, b;
+	cout << "Please enter the two values" << endl;
+	cin >> a >> b;
+	char d;
+	cin >> d;
+	if (d == '+')
+		cout << " Sum = " << a + b << endl;
+	else
+		if (d == '-')
+			cout << " Subtraction = " << a - b << endl;
+		else
+			if (d == '*')
+				cout << " Multiply = " << a * b << endl;
+			else
+				if (d == '%')
+					cout << "reminder = " << a % b;
+				else
+					if (b == 0)
+						cout << "Undefined";
+					else
+						if (d == '/')
+							cout << " Division = " << a / b << endl;
+
+
+
+
+	
+return 0;
+}
